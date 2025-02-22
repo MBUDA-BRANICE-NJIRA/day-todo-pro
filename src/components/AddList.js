@@ -47,14 +47,14 @@ function AddContent() {
 
     return (
         <div className="formPage pt-5">
-            <Form className="form-field mt-5 border border-1 p-4 bg-body-tertiary rounded rounded-5" onSubmit={HandleSubmit}>
-                <h3 className="title text-center bg-dark text-light rounded rounded-3 p-3 fw-bolder mt-3">FILL THIS FORM BELOW TO ADD TODAY'S FIRST TASKS</h3>
-                <Form.Label className="mb-2 mt-2 ms-4">Select Date </Form.Label>
-                <Form.Control className="rounded rounded-4 ps-3 border border-1 border-black-subles mb-2" type="date" placeholder="date" onChange={captureDate} />
-                <Form.Label className="mb-2 mt-2 ms-4">Select time to perform task </Form.Label>
-                <Form.Control className="rounded rounded-4 ps-3 border border-1 border-black-subles mb-2" type="time" placeholder="date" onChange={captureTime} />
-                <Form.Label className="mb-2 mt-2 ms-4">Task: </Form.Label>
-                <Form.Control className="rounded rounded-4 ps-3 border border-1 border-black-subles mb-2" type="text" placeholder="input your first task here" onChange={captureTask} />
+            <Form className ="form-field mt-5 border border-1 p-4 bg-body-tertiary rounded rounded-5" onSubmit={HandleSubmit}>
+                <h3 className ="title text-center bg-dark text-light rounded rounded-3 p-3 fw-bolder mt-3">FILL THIS FORM BELOW TO ADD TODAY'S FIRST TASKS</h3>
+                <Form.Label className ="mb-2 mt-2 ms-4">Select Date </Form.Label>
+                <Form.Control className ="rounded rounded-4 ps-3 border border-1 border-black-subles mb-2" type="date" placeholder="date" onChange={captureDate} />
+                <Form.Label className ="mb-2 mt-2 ms-4">Select time to perform task </Form.Label>
+                <Form.Control className ="rounded rounded-4 ps-3 border border-1 border-black-subles mb-2" type="time" placeholder="date" onChange={captureTime} />
+                <Form.Label className ="mb-2 mt-2 ms-4">Task: </Form.Label>
+                <Form.Control className ="rounded rounded-4 ps-3 border border-1 border-black-subles mb-2" type="text" placeholder="input your first task here" onChange={captureTask} />
                 <Button type="submit" size="lg" variant="outline-success" className="submit-btn d-grid w-75 mt-5 rounded rounded-4">Submit</Button>
 
             </Form>
